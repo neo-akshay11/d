@@ -1,0 +1,5 @@
+1.6) Celsius to Fahrenheit Conversion Server
+
+Implement multi-threaded client/server process communication
+using RMI for Celsius to Fahrenheit conversion
+on 2 different machines.

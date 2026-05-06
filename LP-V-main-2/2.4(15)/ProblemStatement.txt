@@ -1,0 +1,6 @@
+2.4) MPI Reciprocal
+
+Design a distributed application using MPI for computation.
+The root process has an array equal to the processor count.
+It divides elements among worker processes to calculate reciprocals.
+The resultant array is displayed at root.

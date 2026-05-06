@@ -1,0 +1,11 @@
+*.class
+*.log
+*.out
+*.err
+*.pdf
+LP-V PROBLEM STATEMENTS SBD.pdf
+.vscode/
+.idea/
+
+Thumbs.db
+Desktop.ini

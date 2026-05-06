@@ -51,3 +51,15 @@ akshay@MacBook-Air MPI %
 
 
 
+
+
+/*
+cd ~/Desktop/AkshaySSSSSSS/2.2\(13\)
+
+export MPJ_HOME=$HOME/Downloads/mpj-v0_44
+export PATH=$MPJ_HOME/bin:$PATH
+
+javac -cp .:$MPJ_HOME/lib/mpj.jar *.java
+
+mpjrun.sh -np 4 MPIMultiplication
+*/

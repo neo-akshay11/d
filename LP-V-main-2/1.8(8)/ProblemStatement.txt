@@ -1,0 +1,5 @@
+1.8) Echo Server
+
+Implement multi-threaded client/server process communication
+using RMI for printing a name appended to Hello
+on 2 different machines.

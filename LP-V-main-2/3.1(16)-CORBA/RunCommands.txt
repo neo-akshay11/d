@@ -1,0 +1,51 @@
+Use Java 8 for this CORBA program.
+
+Check Java 8 tools:
+   java -version
+   javac -version
+   idlj -version
+   orbd -help
+
+This practical file names:
+   IDL file    : StringReverse.idl
+   Server file : StringReverseServer.java
+   Client file : StringReverseClient.java
+   Impl file   : StringReverseImpl.java
+   Service name: StringReverseService
+
+1. Open the practical folder:
+   cd "D:\LP-V\3.1(16)-CORBA"
+
+2. Generate CORBA files from IDL:
+   idlj -fall StringReverse.idl
+
+3. Compile:
+   javac *.java StringReverseModule\*.java
+
+4. Create ORBD database folder.
+   ORBD needs this folder in the current practical directory:
+   mkdir orb.db
+
+5. Start naming service in terminal 1:
+   orbd -ORBInitialPort 1050
+
+6. Start server in terminal 2:
+   java StringReverseServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+7. Start client in terminal 3:
+   java StringReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost
+
+Input:
+   hello
+
+Expected client output:
+   Reversed string: olleh
+
+Expected server output:
+   String Reverse CORBA Server is ready.
+   Client sent: hello
+
+PowerShell quick test notes:
+1. If port 1050 is busy, change 1050 to another port such as 1160 in all
+   three commands: orbd, server, and client.
+2. Always run server and client with the same ORBInitialPort.

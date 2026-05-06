@@ -1,0 +1,5 @@
+4.1) Berkeley Algorithm
+
+Implement Berkeley algorithm for clock synchronization
+using two physical machines.
+Perform operations on 2 different machines.

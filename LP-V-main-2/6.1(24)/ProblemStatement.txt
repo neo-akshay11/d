@@ -1,0 +1,4 @@
+6.1) Bully Algorithm Leader Election
+
+Perform Leader Election using Bully Algorithm.
+Also print the messages exchanged between processes.

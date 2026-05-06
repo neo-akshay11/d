@@ -1,0 +1,5 @@
+7.3) Hello User Web Service
+
+Create a web service which takes User's Name as input.
+Display Hello User_Name entered by User.
+Consume that web service.

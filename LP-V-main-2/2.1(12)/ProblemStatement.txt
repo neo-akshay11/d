@@ -1,0 +1,6 @@
+2.1) MPI Intermediate Sum
+
+Design a distributed application using MPI for computation.
+The root process has an array equal to the processor count.
+It distributes elements to worker processes to calculate intermediate sums.
+Perform these operations on 2 different machines.

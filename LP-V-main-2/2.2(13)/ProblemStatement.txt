@@ -1,0 +1,6 @@
+2.2) MPI Intermediate Multiplication
+
+Design a distributed application using MPI for computation.
+The root process has an array equal to the processor count.
+It divides elements among worker processes.
+Workers calculate and display intermediate multiplication.

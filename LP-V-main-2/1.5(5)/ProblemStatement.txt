@@ -1,0 +1,5 @@
+1.5) Power Calculation
+
+Implement multi-threaded client/server process communication
+using RMI for 2's power of a given number
+on 2 different machines.

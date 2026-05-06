@@ -1,0 +1,6 @@
+2.3) MPI Average
+
+Generate a random array on the root process using Java MPI.
+Scatter equal numbers to all processes.
+Each process computes the average of its subset.
+Gather averages at root to compute the final average.

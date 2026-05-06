@@ -1,0 +1,5 @@
+1.11) Factorial of Number
+
+Implement multi-threaded client/server process communication using RMI
+for finding the factorial of a number.
+Perform operations on 2 different machines.

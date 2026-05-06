@@ -1,0 +1,6 @@
+1.9) Compare 2 Strings
+
+Implement multi-threaded client/server process communication using RMI
+for comparing 2 strings and returning
+the lexicographically largest string.
+Perform operations on 2 different machines.

@@ -1,0 +1,5 @@
+1.10) Count Vowels
+
+Implement multi-threaded client/server process communication using RMI
+for counting vowels present in a word.
+Perform operations on 2 different machines.

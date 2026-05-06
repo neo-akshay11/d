@@ -1,0 +1,5 @@
+module StringReverseModule {
+    interface StringReverse {
+        string reverseString(in string input);
+    };
+};

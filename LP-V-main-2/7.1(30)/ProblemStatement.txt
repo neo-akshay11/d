@@ -1,0 +1,4 @@
+7.1) Simple Calculator Web Service
+
+Create a Simple Calculator web service
+and consume that web service.

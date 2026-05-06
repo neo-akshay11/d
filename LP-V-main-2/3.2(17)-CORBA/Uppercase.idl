@@ -1,0 +1,5 @@
+module UppercaseModule {
+    interface Uppercase {
+        string changeToUppercase(in string input);
+    };
+};

@@ -1,0 +1,6 @@
+5.3) Token Ring Mutual Exclusion
+
+Implement token ring based mutual exclusion using 2 physical machines.
+Ensure that a unique token is shared among the sites.
+A site can enter its Critical Section only if it has the token.
+Mutual exclusion is ensured because the token is unique.

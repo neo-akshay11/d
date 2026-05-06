@@ -1,0 +1,5 @@
+3.2) String Uppercase Using CORBA
+
+Develop a Changing Case of String to Uppercasing application
+using CORBA to demonstrate object brokering.
+Perform operations on 2 different machines.
